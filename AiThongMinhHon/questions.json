@@ -6,6 +6,66 @@
         "answer": "1943"
       },
       {
+        "question": "Một loại kiểm tra được sử dụng trên các trang web để xác định xem người dùng là con người hay là một chương trình máy tính (bot)?",
+        "answer": "CAPTCHA"
+      },
+      {
+        "question": "Tên của một loại định luật đặt theo một nhà sáng lập Intel, phát biểu rằng số bóng bán dẫn trong một vi xử lý sẽ tăng lên gấp đôi sau mỗi 18 tháng?",
+        "answer": "MOORE"
+      },
+      {
+        "question": "Tên viết tắt của bốn thuộc tính quan trọng của một hệ quản trị cơ sở dữ liệu khi xử lý bất kỳ giao dịch nào? Nếu thiếu một trong những thuộc tính này thì tính toàn vẹn của cơ sở dữ liệu khó có thể được đảm bảo.",
+        "answer": "ACID"
+      },
+      {
+        "question": "Thuật ngữ nào được sử dụng để mô tả tình huống mà trình biên dịch cần quyết định lưu dữ liệu của một thanh ghi vào bộ nhớ, do có nhiều giá trị 'live' (đang được sử dụng) hơn số lượng thanh ghi có sẵn tại thời điểm đó trong quá trình thực thi chương trình?",
+        "answer": "REGISTERSPILL"
+      },
+      {
+        "question": "Kí tự viết tắt ở đầu file đánh dấu big-endian hay little-endian",
+        "answer": "BOM"
+      },
+      {
+        "question": "Giá trị con trỏ này là sai lầm trị giá hàng tỉ đô của Tony Hoare",
+        "answer": "NULL"
+      },
+      {
+        "question": "Một nền tảng mã nguồn mở được phát triển bởi Meta Al hỗ trợ xây dựng và huấn luyện các mô hình học sâu.",
+        "answer": "PYTORCH"
+      },
+      {
+        "question": "Công nghệ bảo mật lớp 2 nào được tích hợp vào hệ điều hành của một switch mạng để ngăn chặn máy chủ DHCP không được ủy quyền?",
+        "answer": "DHCPSNOOPING"
+      },
+      {
+        "question": "Hệ thống phân giải tên miền, thực hiện mapping địa chỉ IP và tên miền trên Internet?",
+        "answer": "DNS"
+      },
+      {
+        "question": "Một kỹ thuật sử dụng trong việc mở rộng cơ sở dữ liệu bằng cách duy trì các bản sao của dữ liệu trên nhiều server cơ sở dữ liệu khác nhau.",
+        "answer": "REPLICATION"
+      },
+      {
+        "question": "Kỹ thuật nào thường được sử dụng trong các mô hình học sâu bằng cách giảm độ chính xác số thực (precision) để tiết kiệm bộ nhớ và tính toán?",
+        "answer": "QUANTIZE"
+      },
+      {
+        "question": "Tên của một phương pháp chia sẻ bí mật dựa trên nội suy đa thức, cho phép chia một thông điệp thành nhiều share, mỗi share là một điểm trên đa thức. Thông điệp ban đầu chỉ khôi phục được nếu có đủ một số lượng nhất định các share được kết hợp lại.",
+        "answer": "SHAMIR"
+      },
+      {
+        "question": "Năm 1994, một nhà khoa học máy tính đã công bố thuật toán lượng tử cho phép phân tích thừa số nguyên tố hiệu quả hơn rất nhiều so với các thuật toán trên máy tính cổ điển. Thuật toán này có thể phá gần như tất cả các hệ mã hóa không đối xứng đang được sử dụng rộng rãi ngày nay như RSA, elliptic curve. Thuật toán này tên là gì?",
+        "answer": "SHOR"
+      },
+      {
+        "question": "Chương trình nào được nạp sẵn vào bộ nhớ ROM và là chương trình được chạy đầu tiên khi máy tính khởi động, thực hiện các thao tác như kiểm tra phần cứng, cung cấp giao diện dưới dạng văn bản để người dùng cấu hình hệ thống?",
+        "answer": "BIOS"
+      },
+      {
+        "question": "Tên một giao thức truyền tải dữ liệu ngang hàng (P2P) được sử dụng rộng rãi trên internet để chia sẻ và phân phối các tập tin lớn?",
+        "answer": "BITTORRENT"
+      },
+      {
         "question": "Tên viết tắt của máy tính đầu tiên được sản xuất?",
         "answer": "ENIAC"
       },

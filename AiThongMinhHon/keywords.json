@@ -110,6 +110,11 @@
         "imageDir": "computer-graphics.png",
         "keyword": "COMPUTERGRAPHICS",
         "clues": ["Ray-tracing", "Rasterization", "Utah teapot", "CGI", "Z-buffer", "Anti-aliasing", "Polygon", "NURBS", "Subsurface scattering", "Ambient lighting", "Voodoo", "Fractal"]
+      },
+      {
+        "imageDir": "mixture-of-experts.png",
+        "keyword": "MIXTUREOFEXPERTS",
+        "clues": ["Gating function", "Ensemble", "Efficient AI", "Router network", "Model scaling", "Subnetworks", "Sparse computing", "Loadbalancing", "Mixtral model", "Gshard", "Parallelization", "Switch Trnasformer"]
       }
     ]
 }
