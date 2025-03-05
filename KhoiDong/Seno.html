@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://hieplpvip.github.io/thachthuc/KhoiDong/train -->
+<html lang="en"><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seno</title>
+    <link rel="stylesheet" href="./Seno_files/app.css">
+    <script src="./Seno_files/keywords.js" defer=""></script>
+    <script src="./Seno_files/app.js" defer=""></script>
+  </head>
+
+  <body __processed_811ffe37-bdc8-4daf-a0f1-1d9eeaf683a2__="true">
+    <div id="app">
+      <header>
+        <h1></h1>
+        <div class="progress-bar"></div>
+      </header>
+      <section id="initZone">
+        <div>
+          <label for="maxWord">Word number</label>
+          <input name="maxWord" id="maxWord" type="number" value="10">
+        </div>
+        <div>
+          <label for="time">Time</label>
+          <input name="time" id="time" type="number" value="120">
+        </div>
+        <div>
+          <label for="strategy">Random Strategy</label>
+          <select name="strategy" id="strategy">
+            <option value="short">Prefer short words</option>
+            <option value="long">Prefer long words</option>
+            <option value="uniform">Uniform</option>
+          </select>
+        </div>
+        <button id="startBtn">START</button>
+      </section>
+      <section id="gameZone">
+        <h1 id="word"></h1>
+        <div class="btnGroup">
+          <button id="answerFalse">False</button>
+          <button id="answerCorrect">Correct</button>
+        </div>
+      </section>
+      <section id="resultZone">
+        <h1></h1>
+        <ol></ol>
+        <button id="resetBtn">RESET</button>
+      </section>
+      <footer>
+        <h1>00 : 00</h1>
+      </footer>
+    </div>
+  
+
+</body></html>

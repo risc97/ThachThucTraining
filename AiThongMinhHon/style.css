@@ -1,0 +1,218 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;          /* Reduced space between containers */
+    padding: 20px;      /* Smaller padding for better use of screen space */
+    font-family: Arial, sans-serif;
+}
+
+.container-left {
+    position: relative;
+    max-width: 650px;   /* Set a reasonable max width */
+    min-width: 300px;   /* Set a minimum width */
+    width: auto;        /* Let width be determined by the image */
+    border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container-left img {
+    width: 100%;        /* Image takes full width of container */
+    height: auto;       /* Maintain aspect ratio */
+    max-height: 70vh;   /* Limit height to 70% of viewport height */
+    object-fit: contain; /* Ensure image is fully visible without cropping */
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.box {
+    background-color: rgba(255, 255, 255);  /* Changed from black to white with opacity */
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #333;
+    position: relative; /* Add this for positioning the incorrect label */
+}
+
+.incorrect-label {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #F44336; /* Red text color */
+    font-weight: bold;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    background-color: transparent; /* Changed from rgba(255, 255, 255, 0.8) to transparent */
+    padding: 2px 0;
+    z-index: 10;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Add text shadow for better visibility */
+}
+
+.container-right {
+    position: relative;
+    width: fit-content;
+    max-width: 550px;   /* Increased max-width from 450px to 550px */
+    height: auto;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Increased column width from 120px to 150px */
+    grid-auto-rows: minmax(50px, auto);                   /* Increased row height from 40px to 50px */
+    gap: 15px;                                           /* Increased gap from 10px to 15px */
+    padding: 15px;                                       /* Increased padding from 10px to 15px */
+    max-height: 75vh;                                    /* Slightly increased max-height from 70vh to 75vh */
+    overflow-y: auto;   /* Add scroll if too many questions */
+}
+
+.question {
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2em;     /* Increased font size from 1em to 1.2em */
+    padding: 12px 10px;   /* Increased padding */
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333; /* Increased border width from 1px to 2px */
+    border-radius: 6px;     /* Increased border radius from 4px to 6px */
+    min-height: 50px;       /* Increased min-height from 40px to 50px */
+    word-break: break-word; /* Break long words if needed */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Added subtle shadow for depth */
+    transition: all 0.2s ease; /* Add transition for smooth color changes */
+}
+
+/* Add hover effect for better interactivity */
+.question:not(:disabled):hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+/* Style for disabled buttons (incorrect answers) */
+.question:disabled:not(.answered-correct) {
+    background-color: #F44336;
+    color: white;
+    opacity: 0.9;
+    cursor: not-allowed;
+    border-color: #D32F2F;
+    text-decoration: line-through;
+    box-shadow: none;
+}
+
+/* Style for correct answers - keep the green */
+.answered-correct {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: not-allowed;
+    border-color: #388E3C;
+    font-weight: bold;
+}
+
+.keyword-section {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.keyword-length-hint {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #555;
+    font-style: italic;
+}
+
+.keyword-input {
+    padding: 10px;
+    width: 60%;
+    font-size: 1em;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.keyword-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.keyword-status {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.correct {
+    color: #4CAF50;
+}
+
+.incorrect {
+    color: #F44336;
+    background-color: transparent;  /* Explicitly set background to transparent */
+}
+
+.answer-length-hint {
+    margin: 0 0 15px 0;
+    padding: 8px 15px;
+    font-size: 1.1em;
+    color: #555;
+    font-style: italic;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    text-align: center;
+    /* border-left: 3px solid #4CAF50; */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1100px) {
+    body {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .container-left, .container-right {
+        max-width: 95vw; /* Increased from 90vw to 95vw */
+    }
+    
+    .container-left img {
+        max-height: 50vh;
+    }
+    
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Reduce gap in mobile view */
+    }
+    
+    .question {
+        font-size: 1.1em; /* Slightly smaller font on mobile, but still larger than before */
+    }
+}

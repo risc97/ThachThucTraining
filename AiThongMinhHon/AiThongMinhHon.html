@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AiThongMinhHon</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container-left">
+            <img src="assets/image.png" id="mainImage">
+            <div class="overlay" id="overlay"></div>
+            <div class="keyword-section" id="keywordSection">
+                <h3>Guess the Keyword</h3>
+                <div id="keywordInputArea">
+                    <input type="text" id="keywordInput" class="keyword-input" placeholder="Type your guess..." autocomplete="off">
+                    <button id="keywordButton" class="keyword-button">Check</button>
+                </div>
+                <div id="keywordStatus" class="keyword-status"></div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="list" id="list"></div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
