@@ -2,6 +2,42 @@
   "questions":
     [
       {
+        "question": "Tên một dòng sản phẩm máy tính siêu máy của NVIDIA được thiết kế đặc biệt để hỗ trợ các nghiên cứu và ứng dụng trong lĩnh vực học sâu (deep learning)?",
+        "answer": "DGX"
+      },
+      {
+        "question": "Tên của một loại semaphore có giá trị là 0 và 1 dùng để hạn chế quyền truy cập vào một tài nguyên? (tương tự mutex lock)",
+        "answer": "CRITICALSECTION"
+      },
+      {
+        "question": "Trong lập trình hướng đối tượng, tính chất nào mô tả khả năng một đối tượng có thể thực hiện một tác vụ theo nhiều cách khác nhau mà không cần quan tâm đến loại đối tượng cụ thể.",
+        "answer": "POLYMORPHISM"
+      },
+      {
+        "question": "What is the name of a project conducted at the MIT Media Lab City Science group. It includes a slew of tangible and digital platforms dedicated to solving spatial design and urban planning challenges? The tools range from simulations that quantify the impact of disruptive interventions in cities to communicable collaboration applications.",
+        "answer": "CITYSCOPE"
+      },
+      {
+        "question": "Tên một phương pháp khảo sát đo khoảng cách tới mục tiêu bằng cách chiếu sáng mục tiêu đó bằng một tia laze xung quanh và đo các xung phản xạ bằng một cảm biến. Phương pháp này thường được sử dụng trong các robot tự hành để xác định khoảng cách tới các vật cản xung quanh.",
+        "answer": "LIDAR"
+      },
+      {
+        "question": "Switch là thiết bị chuyển mạch hoạt động ở tầng nào trong mô hình OSI?",
+        "answer": "DATALINK"
+      },
+      {
+        "question": "Cấu trúc dữ liệu hoạt động giống hàng đợi nhưng cho phép thêm hoặc xóa các phần tử từ cả hai đầu với độ phức tạp hằng số",
+        "answer": "DEQUE"
+      },
+      {
+        "question": "Trong SQL, kiểu dữ liệu nào được sử dụng để lưu trữ các đối tượng dưới dạng nhị phân, ví dụ như hình ảnh, video hay tài liệu?",
+        "answer": "BLOB"
+      },
+      {
+        "question": "Tên một giao thức xác thực mạng hoạt động dựa trên các 'ticket' để xác thực và cung cấp dịch vụ an toàn, do MIT phát triển trong thập niên 1980 và vẫn được sử dụng rộng rãi đến ngày nay?",
+        "answer": "KERBEROS"
+      },
+      {
         "question": "Máy tính đầu tiên được sản xuất vào năm mấy?",
         "answer": "1943"
       },

@@ -115,6 +115,11 @@
         "imageDir": "mixture-of-experts.png",
         "keyword": "MIXTUREOFEXPERTS",
         "clues": ["Gating function", "Ensemble", "Efficient AI", "Router network", "Model scaling", "Subnetworks", "Sparse computing", "Loadbalancing", "Mixtral model", "Gshard", "Parallelization", "Switch Trnasformer"]
+      },
+      {
+        "imageDir": "tetris.png",
+        "keyword": "TETRIS",
+        "clues": ["O,I,S,Z,L,J,T", "Game", "Spin", "Henk Rogers", "4", "1985", "Alexey Pajitnov", "Korobeiniki", "NP-complete", "Tennis", "John Brzustowski", "Soviet Academy of Sciences"]
       }
     ]
 }
