@@ -50,8 +50,13 @@ class App {
     this.wordAll = [];
     this.wordTrue = [];
     this.wordFalse = [];
+    
+    // Get the selected word list based on the dropdown value
+    const wordListType = document.querySelector('#wordList').value;
+    const selectedWordList = wordListType === 'seno' ? seno : zenith;
+    
     this.wordList = shuffle(
-      [...keywords],
+      [...selectedWordList],
       document.querySelector('#strategy').value
     );
     this.timer = time;
